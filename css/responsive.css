@@ -1,0 +1,61 @@
+@media (min-width: 1024px) {
+  .paypal,
+  .atlassian,
+  .weave,
+  .calendar {
+    animation: slide-up 2s ease;
+  }
+
+  .google,
+  .asana,
+  .google-ads {
+    animation: slide-right 2s ease;
+  }
+
+  a {
+    transition: all 1s ease;
+  }
+
+  a:hover {
+    color: #2476ff;
+  }
+
+  button {
+    transition: all 1s ease;
+  }
+
+  button:hover {
+    background-color: white;
+    color: #2476ff;
+  }
+
+  .plan {
+    transition: all 1s ease;
+  }
+
+  .plan:hover {
+    box-shadow: 0px 0px 10px #877766;
+  }
+
+  @keyframes slide-up {
+    0% {
+      transform: translateY(200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-right {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+}

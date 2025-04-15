@@ -22,6 +22,10 @@ body {
   margin: auto;
 }
 
+.bold {
+  font-weight: 700;
+}
+
 /* Header Section */
 
 header {
@@ -66,6 +70,11 @@ img {
   align-items: center;
   gap: 20px;
   list-style-type: none;
+}
+
+a {
+  color: #677788;
+  text-decoration: none;
 }
 
 button {
@@ -129,7 +138,6 @@ h1 {
   align-items: center;
   gap: 24px;
   color: #677788;
-  font-weight: 700;
   font-size: 14px;
 }
 
@@ -407,7 +415,6 @@ h2 {
   padding: 4px 10px;
   border-radius: 15px;
   width: min-content;
-  font-weight: 700;
   font-size: 12px;
   color: white;
 }
@@ -485,7 +492,6 @@ h2 {
 }
 
 .person-name {
-  font-weight: 700;
   font-size: 18px;
   color: white;
 }
@@ -588,7 +594,6 @@ h2 {
 }
 
 .ajax {
-  font-weight: 700;
   color: #677788;
   border-bottom: 1px dashed #677788;
 }
