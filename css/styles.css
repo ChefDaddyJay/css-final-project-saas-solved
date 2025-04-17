@@ -11,15 +11,18 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: clip;
+  align-items: center;
 }
 
 .top-section {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .content {
   width: 1024px;
-  margin: auto;
 }
 
 .bold {
@@ -127,7 +130,13 @@ h1 {
   width: min-content;
 }
 
-.hero-left .subtext {
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.hero-title .subtext {
   font-size: 14px;
   color: #677788;
 }
@@ -431,13 +440,14 @@ h2 {
   width: 100%;
   background-color: #20335b;
   display: flex;
-  justify-items: center;
+  justify-content: center;
 }
 
 .hire-us-content {
   padding: 30px;
-  margin: auto;
   display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .hire-us .left {
@@ -462,6 +472,16 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 34px;
+}
+
+.hire-us-title-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hire-us-title-text .subtext {
+  color: #677788;
 }
 
 .hire-us-title .divider {
@@ -551,6 +571,9 @@ h2 {
   border: 1px solid #e6e8f2;
   border-radius: 5px;
   background-color: white;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .form-data textarea {
@@ -605,6 +628,11 @@ h2 {
 }
 
 /* Footer Section */
+
+footer {
+  display: flex;
+  justify-content: center;
+}
 
 .footer-content {
   padding: 40px 30px;
